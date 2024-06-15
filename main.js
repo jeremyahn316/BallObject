@@ -1,7 +1,6 @@
 // setup canvas
 
 let count = 0;
-const evil = new EvilBall(20, 20);
 const balls = [];
 const para = document.querySelector("p");
 
@@ -143,6 +142,7 @@ class EvilBall extends Shape {
     }
 }
 
+const evil = new EvilBall(20, 20);
 
 while (balls.length < 25) {
   const size = random(10, 20);
